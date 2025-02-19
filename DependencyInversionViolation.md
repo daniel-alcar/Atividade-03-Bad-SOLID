@@ -13,8 +13,10 @@ Melhoria
 Para corrigir se deve adicionar uma abstração que represente um dispositivo que pode ser ligado ou desligado, dessa forma a classe Switch passa a depender da abstração ao invés de uma implementação concreta 
 
 
-`public class DependencyInversionSolution {
+````
+    public class Main {
     public static void main(String[] args) {
+
       
         Device bulb = new LightBulb();
       
@@ -72,4 +74,5 @@ class Switch {
         device.turnOff();
       
     }
-}`
+}
+``
