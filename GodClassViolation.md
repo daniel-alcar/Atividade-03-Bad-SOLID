@@ -14,8 +14,8 @@ Para corrigir se deve dividir a `Application` em várias classes menores, cada u
 ```
 public class main {
     public static void main(String[] args) {
-        Application app = new Application();
-        app.run();
+        Application run = new Application();
+        run.run();
     }
 }
 
@@ -23,7 +23,7 @@ class Authenticator {
 
     public void authenticateUser() {
     
-        System.out.println("Authenticating user");
+        System.out.println("Authenticating");
         
     }
 }
@@ -32,7 +32,7 @@ class Dashboard {
 
     public void load() {
     
-        System.out.println("Loading dashboard");
+        System.out.println("dashboard");
         
     }
 }
@@ -40,7 +40,7 @@ class Dashboard {
 class PaymentProcessor {
     public void process() {
     
-        System.out.println("Processing payments");
+        System.out.println("payments");
         
     }
 }
@@ -49,7 +49,7 @@ class ReportGenerator {
 
     public void generate() {
     
-        System.out.println("Generating reports");
+        System.out.println("reports");
         
     }
 }
